@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project is part of the Laboratory of Bioinformatics I, Module 2, at the University of Bologna. The main aim is to build a Profile Hidden Markov Model (HMM) for the Kunitz-type protease inhibitor domain. Kunitz domains are active domains of proteins that inhibit protein-degrading enzymes, such as aprotinin (BPTI), Alzheimer's amyloid precursor protein (APP), and tissue factor pathway inhibitor (TFPI).
+This project is part of the Laboratory of Bioinformatics I, at the University of Bologna. The main aim is to build a Profile Hidden Markov Model (HMM) for the Kunitz-type protease inhibitor domain. These domains are active regions of proteins that inhibit protein-degrading enzymes, including examples like aprotinin (BPTI), Alzheimer's amyloid precursor protein (APP), and tissue factor pathway inhibitor (TFPI). The project focuses on using the HMM to determine the optimal e-value threshold for binary classification based on HMM search results.
 
 ## Project Description
 
