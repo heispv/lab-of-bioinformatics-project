@@ -2,16 +2,16 @@
 
 ## Overview
 
-This project is part of the Laboratory of Bioinformatics I, at the University of Bologna. The main aim is to build a Profile Hidden Markov Model (HMM) for the Kunitz-type protease inhibitor domain. These domains are active regions of proteins that inhibit protein-degrading enzymes, including examples like aprotinin (BPTI), Alzheimer's amyloid precursor protein (APP), and tissue factor pathway inhibitor (TFPI). The project focuses on using the HMM to determine the optimal e-value threshold for binary classification based on HMM search results.
+This project is part of the Laboratory of Bioinformatics I at the University of Bologna. The main aim is to build a Profile Hidden Markov Model (HMM) for the Kunitz-type protease inhibitor domain. These domains are active regions of proteins that inhibit protein-degrading enzymes, including examples like aprotinin (BPTI), Alzheimer's amyloid precursor protein (APP), and tissue factor pathway inhibitor (TFPI). The project focuses on using the HMM to determine the optimal e-value threshold for binary classification based on HMM search results.
 
 ## Project Description
 
 ### Main Aim
-The primary goal is to construct a Profile HMM for the Kunitz-type protease inhibitor domain, starting from available structural information, and use it to annotate Kunitz domains in the SwissProt database.
+The primary goal is to construct a Profile HMM for the Kunitz-type protease inhibitor domain, starting from available structural information, and use it to find the optimal e-value threshold for binary classification in HMM searches.
 
 ### Specific Aims
 1. Build a model for the Kunitz domain using structural information.
-2. Use the model to annotate Kunitz domains in SwissProt.
+2. Determine the optimal e-value threshold for binary classification based on HMM search results.
 
 ## Repository Structure
 
@@ -33,7 +33,7 @@ This notebook includes the following sections:
 7. **Build HMM Based on Clean MSA**: Constructing a Profile HMM using the cleaned MSA.
 8. **Get the Negative and Positive Data from NCBI**: Retrieving datasets for model validation.
 9. **Run blastp to Find the Matches**: Using blastp to find matches in the data.
-10. **HMM Search**: Conducting HMM searches for domain annotation.
+10. **HMM Search**: Conducting HMM searches for domain prediction.
 11. **Discussion**: Analyzing and discussing the results.
 
 ## Scripts
@@ -105,7 +105,7 @@ jupyter notebook lab_final_project.ipynb
 
 ### Analysis and Results
 - **Prediction**: Optimize predictions by adjusting thresholds or refining alignments.
-- **Annotation**: Annotate Kunitz domains in SwissProt and analyze the distribution.
+- **Threshold Optimization**: Determine the optimal e-value threshold for binary classification based on HMM search results.
 
 ## Contributing
 
